@@ -61,7 +61,7 @@ Designed for learning computer architecture, digital design, and VLSI fundamenta
 
 <h2>🪧Single-Cycle RISC-V (RV32I) Datapath</h2>
 
-<img width="874" height="523" alt="Design.png" src="/home/thanda/Documents/RISC-V/Images" />
+<img width="874" height="523" alt="Design" src="Images/Design.png" />
 
 <hr>
 
@@ -136,7 +136,7 @@ Designed for learning computer architecture, digital design, and VLSI fundamenta
     </tr>
   </tbody>
 </table>
-<img width="866" height="249" alt="instruction.png" src="/home/thanda/Documents/RISC-V/Images" />
+<img width="866" height="249" alt="instruction.png" src="Images/instruction.png" />
 
 
 <hr>
