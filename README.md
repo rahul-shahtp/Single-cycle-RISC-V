@@ -61,7 +61,7 @@ Designed for learning computer architecture, digital design, and VLSI fundamenta
 
 <h2>🪧Single-Cycle RISC-V (RV32I) Datapath</h2>
 
-<img width="874" height="523" alt="Screenshot From 2026-01-28 10-29-36" src="https://github.com/user-attachments/assets/c7315816-70c8-4ad0-89f8-e407b919785f" />
+<img width="874" height="523" alt="Design.png" src="/home/thanda/Documents/RISC-V/Images" />
 
 <hr>
 
@@ -136,7 +136,7 @@ Designed for learning computer architecture, digital design, and VLSI fundamenta
     </tr>
   </tbody>
 </table>
-<img width="866" height="249" alt="Screenshot From 2026-01-28 10-54-27" src="https://github.com/user-attachments/assets/d2b7d760-ef00-41e8-a5e0-79ae94cca0e8" />
+<img width="866" height="249" alt="instruction.png" src="/home/thanda/Documents/RISC-V/Images" />
 
 
 <hr>
