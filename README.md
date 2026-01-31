@@ -224,7 +224,7 @@ and the global open-source community that supports and advances the RISC-V ecosy
 <h2 align="center">📩 Connect with Me</h2>
 
 <p align="center">
-  <a href="www.linkedin.com/in/rahul-shah-510a05321">
+  <a href="https://www.linkedin.com/in/rahul-shah-510a05321">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
   </a>
 
