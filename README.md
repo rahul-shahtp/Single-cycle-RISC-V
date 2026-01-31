@@ -193,10 +193,10 @@ end
 
 <h4>🔜 Coming Soon:</h4>
 <ul>
-  <li><b> Test bench </b></li>
   <li><b>M-Extension:</b> Hardware support for Multiplication and Division.</li>
   <li><b>Pipelining:</b> Transition to a 5-stage pipeline with hazard detection.</li>
   <li><b>CSRs:</b> Control and Status Registers for exception handling.</li>
+   <li><b> Test bench in SystemVerilog </b></li>
 </ul>
 
 
