@@ -66,7 +66,7 @@ module top_riscv (
     // Module Instantiations
 
     // pc
-    program_counter pc(
+    program_counter PC(
         .clk(clk),
         .reset(reset),
         .pc_next(pc_next),
@@ -74,13 +74,13 @@ module top_riscv (
     );
 
     // instruction memory
-    instruction_memory im(
+    instruction_memory I_MEM(
         .address(pc_current),
         .instruction(instruction)
     );
 
     // control unit
-    control_signal cs(
+    control_signal CTRL(
         .opcode(opcode),
         .func3(func3),
         .func7(func7),
@@ -96,7 +96,7 @@ module top_riscv (
     );
 
     // register file
-    register_file rf(
+    register_file REG_FILE(
         .clk(clk),
         .reset(reset),
         .reg_write(reg_write),
@@ -109,7 +109,7 @@ module top_riscv (
     );
 
     // immediate generator
-    immediate_generator img(
+    immediate_generator IMM_GEN(
         .instruction(instruction),
         .imm_out(imm)
     );
@@ -124,7 +124,7 @@ module top_riscv (
     );
 
     // data memory
-    data_memory dm(
+    data_memory DATA_MEM(
         .clk(clk),
         .memory_read(memory_read),
         .memory_write(memory_write),
@@ -134,7 +134,7 @@ module top_riscv (
     );
 
     // branch unit
-    branch_unit bu(
+    branch_unit BRANCH(
         .branch(branch),
         .func3(func3),
         .operand_a(read_data1),
@@ -143,7 +143,7 @@ module top_riscv (
     );
 
     // pc logic
-    pc_logic pC(
+    pc_logic PC_LOGIC(
         .pc_current(pc_current),
         .imm(imm),
         .alu_result(alu_result),
