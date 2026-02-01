@@ -52,6 +52,7 @@ always @(*) begin
             3'b110 : alu_opcode = alu_or;
             3'b100 : alu_opcode = alu_xor;
             3'b010 : alu_opcode = alu_SLT;
+            3'b011 : alu_opcode = alu_SLTU;
             default : alu_opcode = alu_add;
             endcase
         end
@@ -66,6 +67,7 @@ always @(*) begin
             3'b110 : alu_opcode = alu_or;
             3'b100 : alu_opcode = alu_xor;
             3'b010 : alu_opcode = alu_SLT;
+            3'b011 : alu_opcode = alu_SLTU;
             default : alu_opcode = alu_add;
             endcase
         end

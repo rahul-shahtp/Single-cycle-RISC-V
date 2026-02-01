@@ -23,8 +23,7 @@ always @(*) begin
 
         // B-Type: BEQ, BNE, BLT, BGE
         7'b1100011:
-            imm_out = {{20{instruction[31]}}, instruction[31], instruction[7], instruction[30:25], instruction[11:8], 1'b0};
-
+            imm_out = {{20{instruction[31]}}, instruction[7], instruction[30:25], instruction[11:8], 1'b0};
         // U-Type: LUI
         7'b0110111:
             imm_out = {instruction[31:12], 12'b0};
